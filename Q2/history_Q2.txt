@@ -1,0 +1,22 @@
+    1  cd ~
+    2  mkdir Q2_ENV
+    3  ls
+    4  cd Q2_ENV/
+    5  python3 -m venv Q2_ENV
+    6  source Q2_ENV/bin/activate
+    7  pip install numpy
+    8  cd ../Linux_Course_Work/
+    9  mkdir Q2
+   10  cp CODE/py1.py Q2/
+   11  chmod +x Q2/py1.py 
+   12  cd Q2/
+   13  ls
+   14  ./py1.py > q2_output.txt
+   15  pip install numpy
+   16  ./py1.py > q2_output.txt
+   17  python3 ./py1.py > q2_output.txt
+   18  touch requirements.txt
+   19  pip freeze > requirements.txt 
+   20  pip install -r requirements.txt 
+   21  python3 ./py1.py >> q2_output.txt
+   22  history > history_Q2.txt
