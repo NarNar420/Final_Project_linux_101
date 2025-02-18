@@ -1,0 +1,3 @@
+Somehow my history in this questions session was tangaled with the history from past classes
+(maybe becuase I opened VScode in a different folder). So the history is very messy.
+Hopefully the commit history will clarify the work done properly.

@@ -1,0 +1,515 @@
+    1  cd ~
+    2  ls
+    3  mkdir Matalot
+    4  ls
+    5  cd ../
+    6  ls
+    7  cd Matalot/
+    8  ls
+    9  cd ../
+   10  rm Matalot/
+   11  rmdir Matalot/
+   12  ls
+   13  mkdir Matalot
+   14  cd Matalot/
+   15  pwd
+   16  mkdir MATALA_FolderFiles
+   17  cd ../../
+   18  ls
+   19  rmdir Matalot/
+   20  rmdir -a Matalot/
+   21  rmdir -r Matalot/
+   22  rm -r Matalot/
+   23  ls
+   24  mkdir Matalot
+   25  cd Matalot/
+   26  pwd
+   27  makir MATALA_FolderFiles
+   28  mkdir MATALA_FolderFiles
+   29  ls -al 
+   30  cd MATALA_FolderFiles/
+   31  code .
+   32  mkdir -p Test/Demo{1,2}
+   33  touch Test/Demo{1,2}/index.html
+   34  mkdir -p Test/Dir1/Dir2
+   35  cd Test/
+   36  ls -al 
+   37  tree -a
+   38  sudo apt update
+   39  sudo apt install tree
+   40  tree -a
+   41  touch Dir1/file1_{1..10}
+   42  touch Dir1/Dir2/file2_{1..10}
+   43  cd ..
+   44  cd Test/
+   45  ls cd ../../../
+   46  cd ~
+   47  rm -R Matalot/
+   48  ls
+   49  mkdir -p Test/Demo{1,2}
+   50  touch Test/Demo{1,2}/index.html
+   51  mkdir -p Test/Dir1/Dir2
+   52  cd Test/
+   53  ls -R
+   54  mkdir -p Dir1/file1_{1..10}
+   55  mkdir -p Dir1/Dir2/file2_{1..10}
+   56  rm -R Dir1/
+   57  mkdir -p Test/Dir1/Dir2
+   58  rm -R Test/
+   59  mkdir -p Dir1/Dir2
+   60  cd ../
+   61  rm -R MATALA_FolderFiles/
+   62  mkdir MATALA_FolderFiles
+   63  cd MATALA_FolderFiles/
+   64  mkdircd ~
+   65  cd ~
+   66  rm -R MATALOT/
+   67  mkdir -p Test/Demo{1..3}
+   68  touch Test/Demo{1,2}/index.html
+   69  touch Test/Demo3/ilog.log
+   70  mkdir -p Test/Dir1/Dir2
+   71  cd Test/
+   72  ls -R
+   73  cd Dir1 ; touch file1_{1..10}
+   74  cd Dir2/ ; touch file2_{1..10}
+   75  cd ../../../
+   76  ls -R Test/
+   77  history
+   78  mkdir MATALOT
+   79  cd MATALOT/
+   80  pwd
+   81  mkdir MATALA_FolderFiles
+   82  ls -al
+   83  code MATALA_FolderFiles/
+   84  cd ../
+   85  mkdir Matalot
+   86  cd Matalot/
+   87  pwd
+   88  mkdir MATALA_FolderFiles
+   89  ls -al
+   90  cd MATALA_FolderFiles/
+   91  code .
+   92  mkdir Playlist/Music/{Classical/Baroque/Early, Disco, Folk, Jazz/Blues, Rock/{Gothic, Progressive, Punk}}
+   93  rm -R Disco
+   94  ls
+   95  rm -R Disco,/
+   96  rm -R Folk,/
+   97  rm -R Progressive,/
+   98  rm Punk}}/
+   99  rm -R Punk}}/
+  100  mkdir -p Playlist/Music/{Classical/Baroque/Early, Disco, Folk, Jazz/Blues, Rock/{Gothic, Progressive, Punk}}
+  101  rm -R Folk,/ ; rm -R Disco,/ ; rm -R Jazz/ ; rm -R Playlist/ ; rm -R Progressive,/ ; rm -R Punk}}/ ; rm -R Rock/
+  102  mkdir -p Playlist/Music
+  103  cd Playlist/
+  104  cd Music/
+  105  cd ../
+  106  code .
+  107  cd ~
+  108  rm -R Playlist/
+  109  mkdir -p Music/{Clasical/Baroque/Early,Disco,Folk,Jazz/Blues,Rock/{Gothic,Progressive,Punk}}
+  110  history
+  111  mkdir Playlist ; code Playlist
+  112  cat > employees.csv
+  113  ls
+  114  cat employees.csv 
+  115  cut -d ',' -f 2 employees.csv 
+  116  cut -d ',' -f 3,4 employees.csv 
+  117  grep ',Engineering' employees.csv 
+  118  cut -d ',' -f 3 employees.csv | tail -n +2 | sort | uniq -c
+  119  sort -t ',' -k4 -n employees.csv
+  120  awk -F ',' 'NR > 1 {sum += $4} END {print "Total Salaries: " sum}' employees.csv
+  121  sed -i 's/,HR,/,Human Resources,/g' employees.csv
+  122  cat employees.csv 
+  123  awk -F ',' 'NR > 1 {if ($4 > max) {max = $4; line = $0}} END {print line}' employees.csv
+  124  awk -F ',' 'NR > 1 {if ($4 > max) {max = $4; line = $0}} END {print line}' employees.csv
+  125  history
+  126  clear
+  127  mkdir TestTar && cd TestTar
+  128  touch file{1..50}
+  129  tar -tvf archive.tar
+  130  tar -cvfz Archive.tar.gz file1? file?1
+  131  tar -cvzf Archive.tar.gz file1? file?1
+  132  tar -vzf Archive.tar.gz
+  133  tar -tvzf Archive.tar.gz
+  134  tar -cvzf Archive2.tar.gz file*2*
+  135  tar -tvzf Archive2.tar.gz
+  136  tar -cvzf archive3.tar.gz [!*.tar.gz]
+  137  tar -cvzf archive3.tar.gz [!*.tar]
+  138  history 
+  139  clear
+  140  tar -tvzf archive3.tar.gz
+  141  tar -cvzf archive4.tar.gz [!*.tar]
+  142  tar -tvzf archive2.tar.gz
+  143  tar -tvzf Archive2.tar.gz
+  144  rm -r .
+  145  cd ../
+  146  rm -r TestTar/
+  147  dpkg list --installed
+  148  dpkg list 
+  149  dpkg --list
+  150  which python3
+  151  python3 version
+  152  python3 --version
+  153  pip --version
+  154  which pipy
+  155  which pip
+  156  apt search pip
+  157  clear
+  158  mkdir PythonScripts
+  159  code PythonScripts/
+  160  sudo apt update
+  161  apt --upgradable
+  162  apt list --upgradable
+  163  sudo apt upgrade -y
+  164  sudo apt install ntpdate
+  165  apt-get update
+  166  sudo ntpdate pool.ntp.org 
+  167  sudo apt install ntpdate
+  168  --fix-missing
+  169  apt-get --fix-missing
+  170  sudo apt install ntpdate
+  171  sudo ntpdate pool.ntp.org 
+  172  sudo apt update
+  173  apt upgrade
+  174  apt --upgrade
+  175  apt upgrade
+  176  sudo apt upgrade
+  177  apt-get --fix-missing?
+  178  apt-get --fix-missing
+  179  apt autoclean
+  180  sodu apt autoclean
+  181  soju apt autoclean
+  182  sudo apt autoclean
+  183  sudo apt upgrade
+  184  which python3
+  185  which R
+  186  which r
+  187  cd Matalot/
+  188  code .
+  189  touch script1_simple.sh
+  190  nano script1_simple.sh 
+  191  bash script1_simple.sh 
+  192  ls al
+  193  ls -al
+  194  ./script1_simple.sh
+  195  chmod +x script1_simple.sh 
+  196  ./script1_simple.sh
+  197  ls -al
+  198  ./script1_simple.sh
+  199  nano script1_simple.sh 
+  200  ./script1_simple.sh
+  201  echo script1_simple.sh 
+  202  echo script1_simple.sh >> a.txt
+  203  echo -r script1_simple.sh >> a.txt
+  204  ./script1_simple.sh
+  205  touch script2_copy.sh
+  206  nano script2_copy.sh 
+  207  chmod +x script2_copy.sh 
+  208  nano script2_copy.sh 
+  209  ./script2_copy.sh output.txt scripted_folder
+  210  touch a.txt
+  211  nano  a.txt 
+  212  ./script2_copy.sh script1_simple.sh scripted_folder
+  213  ./script2_copy.sh a.txt anotherOne
+  214  touch script_7_1.sh
+  215  nano script_7_1.sh 
+  216  chmod +x script_7_1.sh 
+  217  ./script_7_1.sh 
+  218  mkdir class_7
+  219  cd class_7/
+  220  touch script_7_1.sh
+  221  rm script_7_1.sh 
+  222  touch script_7_2.sh
+  223  chmod +x script_7_2.sh 
+  224  uptime
+  225  ./script_7_2.sh 
+  226  touch script_7_3.sh
+  227  chmod +x script_7_3.sh 
+  228  $!
+  229  $?
+  230  chmod +x script_7_3.sh 
+  231  $?
+  232  touch script_7_4.sh
+  233  $?
+  234  ךד
+  235  ld
+  236  ls
+  237  git --version
+  238  git config --global user.name einaralh
+  239  git config --global user.name
+  240  git config --global user.email einargutkin@gmail.com
+  241  git config --global user.email 
+  242  code .
+  243  cd Matalot/
+  244  code.
+  245  code .
+  246  git init
+  247  git add class_7
+  248  git commit 
+  249  git commit "First commit ever"
+  250  git add script1_simple.sh 
+  251  commit -m "Another useless commit"
+  252  git commit -m "Another useless commit"
+  253  git remote add origin https://github.com/NarNar420/First-Repository.git
+  254  git branch -M main
+  255  git push -u origin main
+  256  cd ../
+  257  ;s
+  258  ls
+  259  code .
+  260  mkdir Clone
+  261  cd Clone/
+  262  git clone https://github.com/shor-gad-github/PythonCodeDemoRepo.git
+  263  ls
+  264  cd PythonCodeDemoRepo/
+  265  ls
+  266  ls -al
+  267  git checkout Einar
+  268  ls
+  269  cd PythonScripts/
+  270  ls
+  271  touch SQLscript.py
+  272  ls
+  273  code .
+  274  python3 -m venv SqlAppVenv
+  275  apt install python3.12-venv
+  276  cd ~
+  277  ls
+  278  apt install python3.12-venv
+  279  cd ../
+  280  ls
+  281  apt install python3.12-venv
+  282  sudo apt install python3.12-venv
+  283  ls
+  284  cd usr/
+  285  ls
+  286  cd ~
+  287  ls
+  288  cd PythonScripts/
+  289  ls
+  290  scp SQLscript.py SqlAppVenv/
+  291  ls
+  292  cd SqlAppVenv/
+  293  ls
+  294  cd ../
+  295  ls
+  296  rm SQLscript.py 
+  297  ls
+  298  cd Sql
+  299  cd SqlAppVenv/
+  300  python3 -m venv SqlAppVenv
+  301  source SqlAppVenv/bin/activate
+  302  touch requiremnents.txt
+  303  pip install -r requiremnents.txt 
+  304  /bin/python3 /home/einaralh/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/einaralh/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/bash/envVars.txt
+  305  ls
+  306  cd Matalot/
+  307  ls
+  308  cd ../
+  309  mkdir Docker
+  310  ls
+  311  cd Docker/
+  312  touch What_is_a_docker.txt
+  313  code .
+  314  docker ps -a
+  315  docker images 
+  316  cd ../
+  317  rm -r Docker/
+  318  ls
+  319  code .
+  320  sudo docker pull alpine
+  321  sudo docker run -i -t alpine
+  322  docker ps
+  323  sudo docker run -i -t alpine
+  324  docker stop alpine
+  325  docker stop wonderful_vaughan
+  326  docker stop determined_hugle
+  327  docker ps -a
+  328  docker images
+  329  sudo docker run -it alpine
+  330  ls
+  331  mkdir DockerFile
+  332  cd DockerFile
+  333  touch script_for_docker.sh
+  334  code .
+  335  chmod +x script_for_docker.sh 
+  336  ./script_for_docker.sh 
+  337  touch Dockerfile
+  338  docker build -t scriptimg:1.0 -f Dockerfile .
+  339  docker images 
+  340  docker run -it scriptimg:1.0
+  341  docker images
+  342  docker ps -a
+  343  ls
+  344  cd DockerFile/
+  345  ls
+  346  code .
+  347  ls -al
+  348  ls -a
+  349  ls -l
+  350  cd ../
+  351  ls
+  352  cd Clone/
+  353  ls
+  354  cd PythonCodeDemoRepo/
+  355  ls
+  356  ls -a
+  357  code .
+  358  history
+  359  clear
+  360  cd ~
+  361  ls
+  362  cd Docker
+  363  cd DockerFile/
+  364  code .
+  365  docker pull python:3.9
+  366  docker run -it python:3.9
+  367  docker run -it python:3.9 bin/bash/
+  368  docker run -it python:3.9 /bin/bash
+  369  clear
+  370  cd ~
+  371  mkdir Linux_Course_Work && cd Linux_Course_Work
+  372  code .
+  373  git init
+  374  ls -al
+  375  echo "Name: Einar Alhassid Gutkin, ID: 316150473" > .myid
+  376  git add .myid
+  377  git commit -m "START"
+  378  mkdir DOWNLOADS
+  379  wget https://github.com/Telhai-Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz
+  380  tar -zxf downloads.tar.gz -C DOWNLOADS/
+  381  rm downloads.tar.gz 
+  382  git add 
+  383  git add .
+  384  git commit -m "Q1-Second Commit After Downloads"
+  385  mkdir DATA CODE
+  386  mv DOWNLOADS/*.py CODE/
+  387  mv DOWNLOADS/LINUX_COURSE_WORK-downloads/*.py CODE/
+  388  mv DOWNLOADS/LINUX_COURSE_WORK-downloads/*.{txt, csv, jpg} DATA/
+  389  mv DOWNLOADS/LINUX_COURSE_WORK-downloads/*.{txt,csv,jpg} DATA/
+  390  git checkout -b question_1
+  391  mkdir Q1
+  392  touch Q1/q1_output.txt
+  393  echo "Time: $(date)" > Q1/q1_output.txt
+  394  echo "USER DETAILS: $(grep $(whoami) /etc/passwd)" >> Q1/q1_output.txt
+  395  echo "REPO: $(pwd)" >> Q1/q1_output.txt
+  396  echo "BRANCH: $(git branch --show-current)" >> Q1/q1_output.txt
+  397  grep 'VERSION_ID' /etc/os-release
+  398  grep 'VERSION_ID' /etc/os-release | cut -d= -f2
+  399  echo "VERSIONID: $(grep 'VERSION_ID' /etc/os-release | cut -d= -f2)" >> Q1/q1_output.txt
+  400  echo "-------------------------------------------" >> Q1/q1_output.txt
+  401  ls -R >> Q1/q1_output.txt
+  402  git add .
+  403  git commit -m "Q1 branch commit"
+  404  git checkout main
+  405  git checkout master
+  406  git merge question_1 
+  407  git log --oneline
+  408  git log
+  409  git log > git_commits.log
+  410  git add .
+  411  git commit -m "Q1 Last commit"
+  412  git remote add origin https://github.com/NarNar420/Final_Project_linux_101.git
+  413  git branch -M main
+  414  git push -u origin main
+  415  git push origin question_1
+  416  y
+  417  history > Q1_hitory.txt
+  418  ls
+  419  cd PythonScripts/
+  420  ls
+  421  cd ../
+  422  ls
+  423  cd Matalot/
+  424  ls
+  425  cd scripted_folder/
+  426  ls
+  427  cd ../
+  428  ls
+  429  cd anotherOne/
+  430  ls
+  431  cd ../
+  432  ls
+  433  cd class_7/
+  434  ls
+  435  cd ../
+  436  ls
+  437  cd ../\
+  438  ls
+  439  cd PythonScripts/
+  440  ls
+  441  cd SqlAppVenv/
+  442  ls
+  443  nano app.py
+  444  docker run -it --name secondContainer q5_image_2:latest 
+  445  clear
+  446  mkdir Q5
+  447  cd Q5/
+  448  touch Use_case.sh
+  449  chmod +x q5_script.sh 
+  450  ./q5_script.sh 
+  451  ./q5_script.sh Q5_test.csv 
+  452  cd ../
+  453  git add .
+  454  git commit -m "Q5 first commit with bash and test run"
+  455  git push origin main
+  456  cd ../
+  457  ls
+  458  cd DockerFile/
+  459  code .
+  460  cd ../
+  461  ls
+  462  cd Linux_Course_Work/
+  463  cd Q5/
+  464  touch Dockerfile
+  465  docker build -t Q5_image .
+  466  docker build -t q5_image .
+  467  docker run -it q5_image:latest firstDocker
+  468  docker build -t q5_image_2 .
+  469  docker run -it --name firstContainer q5_image_2:latest
+  470  docker cp firstContainer:/data/firstContainer.csv Q5/
+  471  docker cp firstContainer:/usr/local/bin/firstContainer.csv Q5/
+  472  docker cp firstContainer:/data/secondContainer.csv Q5/
+  473  docker cp secondContainer:/data/secondContainer.csv Q5/
+  474  touch Q5/dockerlog.log
+  475  cd Q5/
+  476  rm dockerlog.log 
+  477  touch dockerLogMaker.sh
+  478  chmod +x dockerLogMaker.sh 
+  479  ./dockerLogMaker.sh 
+  480  mkdir R_docker_file
+  481  touch R_docker_file/Dockerfile
+  482  cd R_docker_file/
+  483  touch analyze.R
+  484  docker build -t r_analysis_q5 .
+  485  cp ../Q5_test.csv .
+  486  docker build -t r_analysis_q5 .
+  487  docker run -it --name R-container r_analysis_q5:latest 
+  488  docker stop R-container 
+  489  docker build -t q5_image_2 .
+  490  cd Q5/R_docker_file/
+  491  docker build -t q5_image_2 .
+  492  docker run -it --name R-analysis q5_image_2:latest 
+  493  cd Q5/R_docker_file/
+  494  docker build -t r_image_q5 .
+  495  docker run -it --name r-container r_image_q5:latest 
+  496  docker stop r-container 
+  497  git add .
+  498  cd Q5/
+  499  docker cp R_con:/R_output_5.txt .
+  500  docker cp R_con:~/R_outputs_5.txt .
+  501  docker cp R_con:R_outputs_5.txt .
+  502  docker cp R_con:Rplots.pdf .
+  503  cd ../
+  504  git add .
+  505  git commit -m "Q5 last commit with two docker files (on for R and one for a simple ubuntu image that would run scripts)"
+  506  git push origin main 
+  507  history > Q5/Q5_history.txt
+  508  git add .
+  509  git commit -m "Q5 last commit with history"
+  510  git push origin main 
+  511  history 
+  512  echo "Somehow my history in this questions session was tangaled with the history from past classes (maybe becuase I opened VScode in a different folder). So the history is very messy. hopefully the commit history will clarify the work done properly." > Q5/HISTORY_DISCLAIMER.txt
+  513  git reset --hard HEAD~1
+  514  git push --force
+  515  history > Q5/Q5_history.txt
