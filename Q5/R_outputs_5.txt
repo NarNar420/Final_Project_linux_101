@@ -1,0 +1,53 @@
+===== R Analysis Results =====
+
+[1] Data Preview:
+  Date.collected Species Sex Weight
+1            1/8      PF   M     32
+2           2/18      OT   M     24
+3           2/19      OT   F     23
+4           3/11      OT   F     22
+5           3/11      OT   M     26
+
+[2] Group by Species & Calculate Mean Weight:
+# A tibble: 2 × 2
+  Species MeanWeight
+  <chr>        <dbl>
+1 OT            23.8
+2 PF            32  
+
+[3] Calculate Total Weight by Species:
+# A tibble: 2 × 2
+  Species TotalWeight
+  <chr>         <int>
+1 OT               95
+2 PF               32
+
+[4] Sorting the data by Weight (descending):
+  Date.collected Species Sex Weight
+1            1/8      PF   M     32
+2           3/11      OT   M     26
+3           2/18      OT   M     24
+4           2/19      OT   F     23
+5           3/11      OT   F     22
+
+[5] Count the Number of Records per Species:
+# A tibble: 2 × 2
+  Species     n
+  <chr>   <int>
+1 OT          4
+2 PF          1
+
+[6] Count Males & Females:
+# A tibble: 2 × 2
+  Sex       n
+  <chr> <int>
+1 F         2
+2 M         3
+
+[7] Filter Data by Species (example: 'OT'):
+  Date.collected Species Sex Weight
+1           2/18      OT   M     24
+2           2/19      OT   F     23
+3           3/11      OT   F     22
+4           3/11      OT   M     26
+

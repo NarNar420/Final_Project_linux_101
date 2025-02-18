@@ -1,0 +1,21 @@
+[INFO] Listing files from each running container at Tue Feb 18 18:42:28 IST 2025
+===== Container: secondContainer (ID: c6a9f580a8f2, Status: running) =====
+/data:
+Q5_test.csv
+output_5.txt
+secondContainer.csv
+
+===== Container: firstContainer (ID: ebcdd45745e9, Status: running) =====
+/data:
+Q5_test.csv
+
+===== Container: relaxed_sutherland (ID: 3df3cb542659, Status: exited) =====
+[INFO] Container relaxed_sutherland is not running; cannot list files via 'docker exec'.
+
+===== Container: dazzling_hofstadter (ID: 84d3f79f42a7, Status: exited) =====
+[INFO] Container dazzling_hofstadter is not running; cannot list files via 'docker exec'.
+
+===== Container: agitated_snyder (ID: a6cfa0d17008, Status: exited) =====
+[INFO] Container agitated_snyder is not running; cannot list files via 'docker exec'.
+
+[INFO] Finished logging at Tue Feb 18 18:42:29 IST 2025
